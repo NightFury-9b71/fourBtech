@@ -21,6 +21,9 @@ export default function Home() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
+      {/* Navigation Section - Outside wrapper */}
+      <NavigationBar />
+      
       {/* Navigation Section */}
       <motion.div 
         className="bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 w-full flex flex-col rounded-3xl px-4 mx-auto overflow-hidden"
@@ -28,7 +31,6 @@ export default function Home() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.1 }}
       >
-        <NavigationBar />
         <HeroSection />
       </motion.div>
 
