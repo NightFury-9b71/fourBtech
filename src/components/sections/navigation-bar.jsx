@@ -81,7 +81,7 @@ export default function NavigationBar() {
           <div className="lg:hidden">
             <button
               onClick={toggleMenu}
-              className="flex items-center justify-center w-12 h-12 rounded-lg hover:bg-gray-100 transition-colors relative z-[110] border-2 border-gray-800 bg-white shadow-lg"
+              className="flex items-center justify-center w-12 h-12 rounded-lg hover:bg-white/10 transition-colors relative z-[110] bg-transparent"
               aria-label="Toggle menu"
               type="button"
             >

@@ -16,7 +16,7 @@ import FooterSection from "@/components/sections/footer-section";
 export default function Home() {
   return (
     <motion.div 
-      className="min-h-screen"
+      className="min-h-screen overflow-x-hidden"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
