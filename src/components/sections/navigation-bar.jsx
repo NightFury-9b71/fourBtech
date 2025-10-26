@@ -116,7 +116,7 @@ export default function NavigationBar() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 30, stiffness: 300 }}
-              className="fixed top-0 right-0 bottom-0 w-[280px] bg-white shadow-2xl z-[95] lg:hidden"
+              className="fixed top-[50px] sm:top-[60px] right-0 bottom-0 w-[280px] bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 shadow-2xl z-[105] lg:hidden"
             >
               <div className="flex flex-col h-full">
                 {/* Navigation Items */}
