@@ -119,19 +119,8 @@ export default function NavigationBar() {
               className="fixed top-0 right-0 bottom-0 w-[280px] bg-white shadow-2xl z-[95] lg:hidden"
             >
               <div className="flex flex-col h-full">
-                {/* Close Button */}
-                <div className="flex justify-end p-4 border-b border-gray-200">
-                  <button
-                    onClick={toggleMenu}
-                    className="p-2 text-gray-900 hover:text-purple-600 transition-colors"
-                    aria-label="Close menu"
-                  >
-                    <X className="w-6 h-6" />
-                  </button>
-                </div>
-
                 {/* Navigation Items */}
-                <nav className="flex-1 px-6 py-8">
+                <nav className="flex-1 px-6 py-12">
                   <ul className="space-y-6">
                     {navItems.map((item, index) => (
                       <motion.li
